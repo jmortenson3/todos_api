@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/jmortenson3/todos_api/issues"
   },
-  "homepage": "https://github.com/jmortenson3/todos_api#readme"
+  "homepage": "https://github.com/jmortenson3/todos_api#readme",
+  "dependencies": {
+    "express": "4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "1.17.4"
+  }
 }
