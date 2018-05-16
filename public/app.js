@@ -18,7 +18,7 @@ $(document).ready(function() {
   $('.list').on('click', 'span', function(event) {
     // when we click on the span, it won't also
     // trigger the event on the parent li
-    e.stopPropogation();
+    event.stopPropagation();
     removeTodo($(this).parent());
   });
 
